@@ -84,7 +84,6 @@ def adding_matz
 			 :languages => ["LISP","C"]
 		 }
 		 programmer_hash
-		 #programmer_hash[:yukihiro_matsumoto][:languages] = ["LISP","C"]
 end
 
 def changing_alan
@@ -105,7 +104,7 @@ def changing_alan
      }
      #change what Alan Kay is :known_for to the value of the alans_new_info variable.
      alans_new_info = "GUI"
-
+		 programmer_hash[:alan_kay][:known_for]=alans_new_info
 
 end
 
